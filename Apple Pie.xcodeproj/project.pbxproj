@@ -12,6 +12,7 @@
 		5D1F3B86221BAF5C00065544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1F3B84221BAF5C00065544 /* Main.storyboard */; };
 		5D1F3B88221BAF5E00065544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1F3B87221BAF5E00065544 /* Assets.xcassets */; };
 		5D1F3B8B221BAF5E00065544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1F3B89221BAF5E00065544 /* LaunchScreen.storyboard */; };
+		5D1F3B93221BC7E400065544 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F3B92221BC7E400065544 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5D1F3B87221BAF5E00065544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D1F3B8A221BAF5E00065544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D1F3B8C221BAF5E00065544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1F3B92221BC7E400065544 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5D1F3B80221BAF5C00065544 /* AppDelegate.swift */,
 				5D1F3B82221BAF5C00065544 /* ViewController.swift */,
 				5D1F3B84221BAF5C00065544 /* Main.storyboard */,
+				5D1F3B92221BC7E400065544 /* Game.swift */,
 				5D1F3B87221BAF5E00065544 /* Assets.xcassets */,
 				5D1F3B89221BAF5E00065544 /* LaunchScreen.storyboard */,
 				5D1F3B8C221BAF5E00065544 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D1F3B83221BAF5C00065544 /* ViewController.swift in Sources */,
+				5D1F3B93221BC7E400065544 /* Game.swift in Sources */,
 				5D1F3B81221BAF5C00065544 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iOsCCC.RProject.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iOsCCC.RProject.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
